@@ -7,53 +7,48 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Pedro H. Croti Siqueira"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Doutor em Física - Relatividade Geral"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://pcroti.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+locale                  : "en-US"
+site_theme              : "default"
+title                   : "Pedro H. Croti Siqueira"
+title_separator         : "-"
+name                    : &name "Pedro H. Croti Siqueira"
+description             : &description "Doutor em Física - Relatividade Geral"
+url                     : "https://pcroti.github.io"
+baseurl                 : ""
+repository              : "pcroti/pcroti.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
-  avatar           : "perfil.jpg"
-  name             : "Pedro H. Croti Siqueira"
-  pronouns         : # example: "she/her"  
-  bio              : "Pos-Doc at XXX University"
-  location         : "São Paulo | BR"
-  employer         : "XXX University"
-  uri              : # URL
-  email            : "pedro.croti@ufabc.edu.br" 
+  avatar                : "images/perfil.jpg"
+  name                  : "Pedro H. Croti Siqueira"
+  pronouns              :
+  bio                   : "Doutor em Física - Relatividade Geral"
+  location              : "São Paulo | BR"
+  employer              : "UFABC"
+  uri                   :
+  email                 : "pedro.croti@ufabc.edu.br"
 
   # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com.br/citations?user=d1l6G9UAAAAJ&hl=pt-BR"
-  inspire-hep      : "https://inspirehep.net/authors/2075516?ui-citation-summary=true"
-  impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0001-5411-6859"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : # URL
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
-
+  academia              :
+  arxiv                 :
+  googlescholar         : "https://scholar.google.com.br/citations?user=d1l6G9UAAAAJ&hl=pt-BR"
+  inspire-hep           : "https://inspirehep.net/authors/2075516?ui-citation-summary=true"
+  impactstory           :
+  orcid                 : "https://orcid.org/0000-0001-5411-6859"
+  semantic              :
+  ssrn                  :
+  pubmed                :
+  researchgate          :
+  scopus                :
+  zotero                :
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "pcroti"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  bitbucket             :
+  codepen               :
+  dribbble              :
+  github                : "pcroti"
+  kaggle                :
+  stackoverflow         :
 
   # Social media
   artstation       : # Username
